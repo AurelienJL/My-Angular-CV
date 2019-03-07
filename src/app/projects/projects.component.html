@@ -1,0 +1,8 @@
+<app-navigation-bar></app-navigation-bar>
+
+<section>
+    <app-title-item [title]="title"></app-title-item>
+    <app-cv-content *ngFor="let data of projectsData" [cvElement]="data"></app-cv-content>
+</section>
+
+
