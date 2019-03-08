@@ -6,7 +6,7 @@ export const menuItems = [
         url: '../skills',
         label: 'compétences',
         iconName: 'code',
-        introduction: 'Un aperçu et une évaluation de mes capacités sur différents langages informatiques, frameworks et technologies que j\'ai étudié.'
+        introduction: 'Un aperçu et une évaluation de mes capacités sur différents langages informatiques, frameworks et technologies que j\'ai étudiés.'
     },
     {
         url: '../formation',
@@ -18,7 +18,7 @@ export const menuItems = [
         url: '../projects',
         label: 'projets',
         iconName: 'tasks',
-        introduction: 'Une illustration de mes compétences : les projets que j\'ai réalisé au cours de ma formation ainsi que mes projets personnels.'
+        introduction: 'Une illustration de mes compétences : les projets que j\'ai réalisés au cours de ma formation ainsi que mes projets personnels.'
     },
 ];
 

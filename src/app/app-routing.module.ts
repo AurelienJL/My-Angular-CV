@@ -13,7 +13,8 @@ const routes: Routes = [
   { path: 'home', component: HomeComponent},
   { path: 'skills', component: SkillsComponent},
   { path: 'formation', component: FormationComponent},
-  { path: 'projects', component: ProjectsComponent}
+  { path: 'projects', component: ProjectsComponent},
+  { path: '**', redirectTo: '/home'}
 ];
 
 const routerOptions: ExtraOptions = {

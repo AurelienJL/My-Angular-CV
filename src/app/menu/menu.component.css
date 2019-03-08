@@ -20,6 +20,7 @@ whitesmoke
     margin-bottom: 20px;
     background-color: #00CC66;
     color: whitesmoke;
+    align-items: flex-end;
 }
 
 #menu a:hover {
@@ -48,4 +49,10 @@ whitesmoke
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+@media screen and (max-width: 992px) {
+    #about .pic {
+        display: none;
+    }
 }
